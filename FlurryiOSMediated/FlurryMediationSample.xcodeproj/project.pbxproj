@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B31F273179E097700388224 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE0525017760A570084A6BB /* QuartzCore.framework */; };
-		5B921F6817B7618500779EF0 /* libFlurry_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B921F6717B7618500779EF0 /* libFlurry_4.2.3.a */; };
-		5B921F6A17B7619800779EF0 /* libFlurryAds_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B921F6917B7619800779EF0 /* libFlurryAds_4.2.3.a */; };
 		5BAB45E11797482700BF15B5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAB45E01797482700BF15B5 /* MessageUI.framework */; };
 		5BD000F316AA01CF00227644 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDEF21D16714D4B006745ED /* PassKit.framework */; };
-		5BD4F77017D1199C0019DB72 /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4F76F17D1199C0019DB72 /* libGreystripeSDK.a */; };
-		5BD85F261742037800C17A33 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9201CC5415D2411B0058673F /* libGoogleAdMobAds.a */; };
 		5BDEF21C16714D37006745ED /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDEF21B16714D37006745ED /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5BDEF2241671558A006745ED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9201CBF815D23DE50058673F /* MobileCoreServices.framework */; };
 		5BDEF225167155A7006745ED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925AE43815D35804005F4497 /* CoreLocation.framework */; };
@@ -24,6 +20,10 @@
 		5BE0524F17752EB00084A6BB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE0524E17752EB00084A6BB /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5BE0525317760AE20084A6BB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE0525217760AE20084A6BB /* CoreTelephony.framework */; };
 		5BE0525517760B0C0084A6BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE0525417760B0C0084A6BB /* CoreGraphics.framework */; };
+		5BEA812D187B9D6400A2F0C9 /* libFlurry_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEA812C187B9D6400A2F0C9 /* libFlurry_4.3.0.a */; };
+		5BEA812F187B9D8500A2F0C9 /* libFlurryAds_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEA812E187B9D8500A2F0C9 /* libFlurryAds_4.3.0.a */; };
+		5BEA8135187B9DFB00A2F0C9 /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEA8133187B9DFB00A2F0C9 /* libGreystripeSDK.a */; };
+		5BEA8137187B9EB000A2F0C9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEA8136187B9EB000A2F0C9 /* libGoogleAdMobAds.a */; };
 		9201CBFC15D23DE50058673F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9201CBF115D23DE50058673F /* AudioToolbox.framework */; };
 		9201CBFD15D23DE50058673F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9201CBF215D23DE50058673F /* AVFoundation.framework */; };
 		9201CBFE15D23DE50058673F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9201CBF315D23DE50058673F /* CoreData.framework */; };
@@ -42,11 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B921F6717B7618500779EF0 /* libFlurry_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.3.a; sourceTree = "<group>"; };
-		5B921F6917B7619800779EF0 /* libFlurryAds_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.2.3.a; sourceTree = "<group>"; };
 		5BAB45E01797482700BF15B5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		5BD4F76F17D1199C0019DB72 /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
-		5BDEF20D16714362006745ED /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
 		5BDEF21B16714D37006745ED /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		5BDEF21D16714D4B006745ED /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		5BE0523B17750AFE0084A6BB /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
@@ -59,12 +55,15 @@
 		5BE0525017760A570084A6BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5BE0525217760AE20084A6BB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5BE0525417760B0C0084A6BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BEA812C187B9D6400A2F0C9 /* libFlurry_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.0.a; sourceTree = "<group>"; };
+		5BEA812E187B9D8500A2F0C9 /* libFlurryAds_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.3.0.a; sourceTree = "<group>"; };
+		5BEA8133187B9DFB00A2F0C9 /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
+		5BEA8136187B9EB000A2F0C9 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		9201CBF115D23DE50058673F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9201CBF215D23DE50058673F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9201CBF315D23DE50058673F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9201CBF415D23DE50058673F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		9201CBF815D23DE50058673F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		9201CC5415D2411B0058673F /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		925AE43815D35804005F4497 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		925AE43915D35804005F4497 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		925AE43B15D35804005F4497 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -92,7 +91,9 @@
 			files = (
 				5BDEF21C16714D37006745ED /* AdSupport.framework in Frameworks */,
 				9201CBFD15D23DE50058673F /* AVFoundation.framework in Frameworks */,
+				5BEA812F187B9D8500A2F0C9 /* libFlurryAds_4.3.0.a in Frameworks */,
 				9201CBFC15D23DE50058673F /* AudioToolbox.framework in Frameworks */,
+				5BEA812D187B9D6400A2F0C9 /* libFlurry_4.3.0.a in Frameworks */,
 				9201CBFF15D23DE50058673F /* CoreMotion.framework in Frameworks */,
 				9201CBFE15D23DE50058673F /* CoreData.framework in Frameworks */,
 				5BE0525517760B0C0084A6BB /* CoreGraphics.framework in Frameworks */,
@@ -101,21 +102,19 @@
 				5BDEF226167155DA006745ED /* Foundation.framework in Frameworks */,
 				925AE43E15D35804005F4497 /* iAd.framework in Frameworks */,
 				92BB5EE815CCE2B70004B27E /* MediaPlayer.framework in Frameworks */,
+				5BEA8137187B9EB000A2F0C9 /* libGoogleAdMobAds.a in Frameworks */,
 				5BAB45E11797482700BF15B5 /* MessageUI.framework in Frameworks */,
 				5BDEF2241671558A006745ED /* MobileCoreServices.framework in Frameworks */,
 				5B31F273179E097700388224 /* QuartzCore.framework in Frameworks */,
 				5BD000F316AA01CF00227644 /* PassKit.framework in Frameworks */,
+				5BEA8135187B9DFB00A2F0C9 /* libGreystripeSDK.a in Frameworks */,
 				925AE44015D35804005F4497 /* Security.framework in Frameworks */,
 				5BE0524F17752EB00084A6BB /* StoreKit.framework in Frameworks */,
 				92BB5EE915CCE2B70004B27E /* SystemConfiguration.framework in Frameworks */,
 				92BB5EBE15CC73800004B27E /* UIKit.framework in Frameworks */,
-				5BD85F261742037800C17A33 /* libGoogleAdMobAds.a in Frameworks */,
 				5BE0524A177529850084A6BB /* libInMobiAdNetwork-3.7.0.a in Frameworks */,
 				5BE0524B177529850084A6BB /* libInMobiCommons-3.7.0.a in Frameworks */,
 				5BE0524D177529B80084A6BB /* libMMSDK_5.0.1.a in Frameworks */,
-				5B921F6817B7618500779EF0 /* libFlurry_4.2.3.a in Frameworks */,
-				5B921F6A17B7619800779EF0 /* libFlurryAds_4.2.3.a in Frameworks */,
-				5BD4F77017D1199C0019DB72 /* libGreystripeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +124,8 @@
 		5BE0523817750AFE0084A6BB /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
-				5B921F6717B7618500779EF0 /* libFlurry_4.2.3.a */,
 				5BE0523B17750AFE0084A6BB /* Flurry.h */,
+				5BEA812C187B9D6400A2F0C9 /* libFlurry_4.3.0.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";
@@ -134,7 +133,7 @@
 		5BE0523D17750AFE0084A6BB /* FlurryAds */ = {
 			isa = PBXGroup;
 			children = (
-				5B921F6917B7619800779EF0 /* libFlurryAds_4.2.3.a */,
+				5BEA812E187B9D8500A2F0C9 /* libFlurryAds_4.3.0.a */,
 				5BE0524217750AFE0084A6BB /* FlurryAds.h */,
 				5BE0524117750AFE0084A6BB /* FlurryAdDelegate.h */,
 			);
@@ -144,12 +143,11 @@
 		9201CC5215D2411B0058673F /* ExtLibs */ = {
 			isa = PBXGroup;
 			children = (
-				5BD4F76F17D1199C0019DB72 /* libGreystripeSDK.a */,
+				5BEA8136187B9EB000A2F0C9 /* libGoogleAdMobAds.a */,
 				5BE0524C177529B80084A6BB /* libMMSDK_5.0.1.a */,
+				5BEA8133187B9DFB00A2F0C9 /* libGreystripeSDK.a */,
 				5BE05248177529850084A6BB /* libInMobiAdNetwork-3.7.0.a */,
 				5BE05249177529850084A6BB /* libInMobiCommons-3.7.0.a */,
-				5BDEF20D16714362006745ED /* libGreystripeSDK.a */,
-				9201CC5415D2411B0058673F /* libGoogleAdMobAds.a */,
 			);
 			path = ExtLibs;
 			sourceTree = "<group>";
@@ -405,7 +403,7 @@
 					"$(SRCROOT)/**",
 				);
 				INFOPLIST_FILE = "appspot-ios-sample/FlurryMediationSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Flurry\"",
@@ -413,9 +411,9 @@
 					"\"$(SRCROOT)/ExtLibs\"",
 					"\"$(BUILT_PRODUCTS_DIR)/\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
-					"-all_load",
+					"-ObjC",
 					"-framework",
 					Foundation,
 					"-framework",
@@ -450,7 +448,7 @@
 					"$(SRCROOT)/**",
 				);
 				INFOPLIST_FILE = "appspot-ios-sample/FlurryMediationSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Flurry\"",
@@ -458,9 +456,9 @@
 					"\"$(SRCROOT)/ExtLibs\"",
 					"\"$(BUILT_PRODUCTS_DIR)/\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
-					"-all_load",
+					"-ObjC",
 					"-framework",
 					Foundation,
 					"-framework",
